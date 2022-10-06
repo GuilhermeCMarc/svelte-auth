@@ -4,9 +4,7 @@ import type { UserConfig } from 'vite';
 
 /** @type {import('vite').UserConfig} */
 const config: UserConfig = {
-	server: { port: 3000 },
-	preview: { port: 3000 },
-	plugins: [sveltekit(), webSocketServer]
+	plugins: [sveltekit()]
 };
 
 export default config;
