@@ -17,7 +17,7 @@
 <form
 	action="?/login"
 	method="POST"
-	class="relative flex w-[450px] flex-col gap-5 rounded-md bg-gray-800 p-6 shadow-lg"
+	class="relative flex w-full max-w-[450px] flex-col gap-5 rounded-md bg-gray-800 p-6 shadow-lg"
 	use:enhance={({}) => {
 		loading = true;
 
